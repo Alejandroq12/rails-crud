@@ -28,7 +28,6 @@
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [❓ FAQ ](#-faq-)
   - [📝 License ](#-license-)
-  - [(back to top)](#back-to-top)
 
 # 📖 Ruby CRUD <a name="about-project"></a>
 
@@ -68,8 +67,8 @@ In order to run this project you need:
 ### Setup
 
 ```sh
-  cd my-folder
-  git clone https://github.com/Alejandroq12/rails-crud.git
+cd my-folder
+git clone https://github.com/Alejandroq12/rails-crud.git
 ```
 
 ### Install
@@ -99,7 +98,7 @@ rake db:seed
 To run the project, navigate to the project directory and execute the following command:
 
 ```sh
-  rails server
+rails server
 ```
 
 ### Run tests
