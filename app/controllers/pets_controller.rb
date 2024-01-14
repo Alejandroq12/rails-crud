@@ -20,6 +20,12 @@ class PetsController < ApplicationController
     redirect_to @pet
   end
 
+  def destroy
+    @pet = Pet.find(params[:id])
+    @pet.destroy
+    redirect_to pets_path
+  end
+
   def create
     @pet = Pet.new(params.require( :pet).permit( :name, :age, :description))
     @pet.save
