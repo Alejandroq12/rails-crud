@@ -5,6 +5,7 @@
   <% @pets.each do |p| %>
     <tr>
       <td><%= link_to p.name, pet_path(p) %></td>
+      <td><%= link_to 'Edit', edit_pet_path(p) %></td>
     </tr>
   <% end%>
 </table>
