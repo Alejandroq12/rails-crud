@@ -1,5 +1,9 @@
 <h1>Edit Pet</h1>
 
+<div id="form_update_errors">
+   <!-- Errors will be displayed here -->
+</div>
+
 <%= form_with model: @pet, local: true do |form| %>
   <p>
     <%= form.label :name %><br>
