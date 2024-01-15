@@ -6,10 +6,11 @@
     <tr>
       <td><%= link_to p.name, pet_path(p) %></td>
       <td><%= link_to 'Edit', edit_pet_path(p) %></td>
+      <td><%= link_to 'Remove', pet_path(p), data: { turbo_method: "delete", turbo_confirm: 'Are you sure?' } %></td>
     </tr>
   <% end%>
 </table>
 
 <br>
 
-<%= link_to 'New pet', new_pet_path %>
+<%= link_to 'New pet', new_pet_path %><br>
