@@ -11,6 +11,14 @@
   </head>
 
   <body>
+    <% flash.each do |name, msg| %>
+      <% if msg.is_a?(String) %>
+        <div class="alert <%= 'alert-info' if name == 'notice' %> <%= 'alert-danger' if name == 'alert' %>">
+          <%= msg %>
+        </div>
+      <% end %>
+    <% end %>
+
     <%= yield %>
   </body>
 </html>
