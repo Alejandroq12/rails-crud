@@ -17,8 +17,15 @@ class PetsController < ApplicationController
 
   def update
     @pet = Pet.find(params[:id])
-    @pet.update(pet_params)
-    redirect_to @pet
+
+    respond_to do |format|
+      if @pet.update(pet_params)
+        format.html { redirect_to @pet, notice: 'Pet was successfully updated' }
+      else
+        format.turbo_stream
+        format.html { render :edit }
+      end
+    end
   end
 
   def destroy
