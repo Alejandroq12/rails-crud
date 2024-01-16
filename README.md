@@ -166,7 +166,7 @@ I would like to thank all of my colleagues who inspire to do my best everyday.
 
 **What did you learn?**
 
-- I have extensively learned about CRUD operations, the MVC design pattern, validations, testing, and adhering to the DRY principle.
+- I have extensively learned about CRUD operations, the MVC design pattern, validations, parameter processing, and adhering to the DRY principle.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
