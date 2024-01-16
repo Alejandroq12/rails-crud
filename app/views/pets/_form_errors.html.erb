@@ -1,6 +1,6 @@
 <% if pet.errors.any? %>
   <div id="form_errors" class="errors">
-    <h2><%= pluralize(pet.errors.count, "error") %> prohibited this pet from being saved:</h2>
+    <h2><%= pluralize(pet.errors.count, "error") %> prohibited this pet from being <%= action %>:</h2>
     <ul>
       <% pet.errors.full_messages.each do |message| %>
         <li><%= message %></li>
