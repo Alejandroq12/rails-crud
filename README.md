@@ -48,7 +48,7 @@ This project is a Ruby on Rails CRUD application developed to practice foundatio
 ### Key Features <a name="key-features"></a>
 
 - **Create, read, update and delete pets.**
-- **Elegant user interface to display pets.**
+- **Different views to display pets.**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -131,9 +131,9 @@ Not available at the moment.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **Add more pets.**
-- **Edit pets.**
-- **Add validations.**
+- [x] **Add more pets.**
+- [x] **Edit pets.**
+- [x] **Add validations.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
