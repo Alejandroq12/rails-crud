@@ -31,7 +31,7 @@
 
 # 📖 Ruby CRUD <a name="about-project"></a>
 
-Under construction!
+This project is a Ruby on Rails CRUD application developed to practice foundational skills in web development. It includes essential aspects of CRUD operations, database migrations, controller handling, view management, data validations, parameter processing, and model interactions. Designed as an educational tool, it serves as a practical showcase of core Ruby on Rails functionalities and best practices.
 
 <div align="center">
     <img src="logo.png" alt="logo" width="500"  height="auto" />
